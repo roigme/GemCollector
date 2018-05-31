@@ -32,6 +32,8 @@ $("#rstbtn").on("click", function(){
     wins=0;
     losses=0;
     reset();
+    $("#wins").text("Wins: "+wins);
+    $("#losses").text("Losses: "+losses);
 });
 
 function reset(){
