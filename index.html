@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gem Hunter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Link CSS & BootStrap-->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    
+    <!--link JS and Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/logic.js"></script>
+
+    <link rel="icon" href="./assets/images/001-slot-machine.png" sizes="16x16" type="image/png">
+</head>
+
+
+<body style= "background-color: black">
+   <div class="container">
+   
+    
+    <nav class="navbar fixed-top navbar-light" >
+         <h1>Gem Hunter<img id="titlegem" src="./assets/images/titlegem.png"> </h1>   
+    </nav> 
+   
+    
+    
+    <div class="container-fluid text-center content">
+        <div class="row">
+            <div class="col-sm-12 instructions">
+                        <h2>Instructions</h2> 
+                        
+                        <p>Your Goal is to reach the random number generated at the start of the game.</p>
+                        <p>Each of the crystals below has a random value assigned to it and every time you click a gem it is added to your total.</p>
+                        <p>You win the game by matching your total score to the goal number. If you bust you lose.</p>
+                        <p>The value of each crystal is hidden from you, and random each game. Good Luck!!</p>
+                    
+                    <div class="row spacer"></div>
+                        
+                        <button type="button" class="btn btn-success"><img id="gem1" src="./assets/images/gem1.png"></button>
+                        <button type="button" class="btn btn-secondary"><img id="gem2" src="./assets/images/gem2.png"></button>
+                        <button type="button" class="btn btn-primary"><img id="gem3" src="./assets/images/gem3.png"></button>
+                        <button type="button" class="btn btn-danger"><img id="gem4" src="./assets/images/gem4.png"></button>
+                    
+                    <div class="row spacer"></div>           
+            </div>
+        </div> 
+        <div class="row">
+                <div class="col-sm-6 stats">
+                <h3 id="wins">Wins:</h3>
+                <h3 id="losses">Losses:</h3>
+                </div>
+
+                <div class="col-sm-6 numbers">
+                <h3 id="goal">Goal:</h3>
+                <h3 id="score">Score:</h3>
+                </div>
+        </div>
+        <button id="rstbtn" type="button" class="btn btn-dark">Reset</button>
+    
+    </div>
+    
+
+    <nav class="navbar fixed-bottom ">
+            <div class= "col-md-5"></div>
+            <div class= "col-md-2">
+                <a class="navbar-brand" href="#"> Matt Roig | 2018</a>
+            </div>
+            <div class= "col-md-5"></div>
+    </nav>
+
+</div>
+</body>
+</html>

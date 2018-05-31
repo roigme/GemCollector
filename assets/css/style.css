@@ -1,0 +1,26 @@
+body {
+    padding-top: 85px;
+    margin: auto;
+}
+
+
+.navbar{
+    background-color: #686d75; 
+    border-radius: 25px; 
+    margin: auto;
+}
+
+.content{
+    background-color: aliceblue;
+    margin: auto;
+    max-width: 960px;
+    min-height: 600px;
+}
+
+.spacer{
+    height: 30px;
+}
+#titlegem{
+    height: 64px;
+    width: 64px;
+}
